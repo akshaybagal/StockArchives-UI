@@ -1,0 +1,41 @@
+
+html {
+  font-family: 'Roboto', Roboto;
+  line-height: 1.6;
+  color: #666;
+  background: #F6F6F6;
+}
+
+h5 {
+	margin-left: 10%;
+}
+h1 {
+  text-align: center;
+  padding: 1.5rem 2.5rem;
+  background-image: linear-gradient(120deg, #fbc2eb 0%, #a6c1ee 100%);
+  margin: 0 0 2rem 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+.left {
+  left: 0;
+  width: 20%;
+  margin: 3rem;
+  padding-top: 10px;
+}
+
+.right {
+  right: 0;
+  width: 80%;
+  
+}

@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Stock Archives</title>
+  
+  <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+  <link href="style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	<div class="split left">
+		<h2>Welcome</h2>
+		<h4>Filters:</h4>
+		
+		<h4>Company</h4>
+		<input type="text" id="ticker" placeholder="Enter ticker symbol"><br>
+		
+		<h4> From Date: </h4>
+		<input type="text" id="fromDate" placeholder="yyyy-MM-dd"><br>
+		
+		<h4> To Date: </h4>
+		<input type="text" id="toDate" placeholder="yyyy-MM-dd"><br>
+		
+		<h5></h5>
+		<Button name="Refresh" onClick="refresh()">Search</Button>
+	</div>
+	
+	<div id="root" class="split right">
+		<h2 id="header">Stocks</h2>
+		<table id = "gridTable">
+			
+		</table>
+		<h5 id="pageText" style="display:inline-block"> Page </h5></li>
+		<h5 id="pageNum" style="display:inline-block"> 1 </h5>
+		<h5 id="dummy" style="display:inline-block"></h5>
+		<Button id="next" onClick="next()">Next</Button>
+		<h5></h5>
+</ul> 
+	</div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
